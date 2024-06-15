@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Quiz</h1>
+      </div>
+      <div class="info">
+        <h3>Before Start the Exam Read The Instructions Carefully!</h3>
+        <p>
+          The total duration is
+          <b> 2 minutes and 30 seconds</b> for the entire session.
+        </p>
+        <p>
+          You have to fill in the answers within the time limit, otherwise it
+          will automatically submit.
+        </p>
+        <p>
+          Test Date: <b><span class="date"></span></b>
+        </p>
+        <p>
+          Test Time: <b><span class="time"></span></b>
+        </p>
+      </div>
+      <div class="checkbox">
+        <input type="checkbox" class="check" id="check" />
+        <span>I have read all the above instructions. </span>
+        <div id="checkError" class="checkError"></div>
+      </div>
+      <div class="btn-container">
+        <button class="startBtn" id="startBtn">Start</button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
