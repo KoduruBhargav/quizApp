@@ -1,1 +1,1 @@
-This Project is completely frontend, no backend is used. 
+Quiz Application Project is based on frontend, no backend is used. 
