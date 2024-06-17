@@ -97,7 +97,6 @@ const displaySubmission = document.querySelector(".displaySubmission");
 
 // start Quiz
 function startQuiz() {
-  nextBtn.innerHTML = "Next";
   showQuestions();
 }
 // show questions
